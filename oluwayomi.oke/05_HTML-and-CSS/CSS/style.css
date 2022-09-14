@@ -111,3 +111,67 @@ header .hero-text {
 	font-size: 2rem;
 	z-index: 2;
 }
+
+footer {
+	padding: 2rem 3.5rem 0.5rem;
+	background-color: #2c052d;
+	text-align: center;
+	color: #ffffff;
+}
+
+.footer-heading {
+	margin-bottom: 75px;
+}
+
+.footer-heading h2 {
+	font-weight: 900;
+	font-size: 25px;
+	line-height: 1.4;
+	margin-bottom: 17px;
+}
+
+.footer-heading .footer-btn {
+	background-color: #fff;
+	color: #1e1e1e;
+}
+
+.footer-nav {
+	width: 100%;
+	max-width: 1000px;
+	display: flex;
+	justify-content: space-between;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.footer-info {
+	display: flex;
+	flex-direction: column;
+}
+.footer-info h4 {
+	margin-bottom: 15px;
+}
+
+.footer-links {
+	color: #cfcdcd;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+.footer-icons {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 7px;
+}
+
+.footer-icons .icon i {
+	color: #fff;
+}
+
+.footer-email {
+	margin-bottom: 10px;
+}
+
+.footer-email p {
+	margin-bottom: 0px;
+}
