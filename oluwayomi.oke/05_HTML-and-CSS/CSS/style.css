@@ -112,6 +112,17 @@ header .hero-text {
 	z-index: 2;
 }
 
+header .hero-link span,
+header .hero-link a {
+	font-weight: 500;
+	color: #fff;
+	font-size: 1.1rem;
+}
+
+header .hero-link span {
+	margin: 0 0.3rem;
+}
+
 footer {
 	padding: 2rem 3.5rem 0.5rem;
 	background-color: #2c052d;

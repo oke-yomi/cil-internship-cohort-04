@@ -15,9 +15,10 @@
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
 		/>
 		<link rel="stylesheet" href="./CSS/style.css" />
+		<link rel="stylesheet" href="./CSS/contact.css" />
 		<title>Max | Ccontact</title>
 	</head>
-  
+
 	<body>
 		<header>
 			<nav>
@@ -51,18 +52,24 @@
 			</nav>
 
 			<div class="hero">
-				<h2 class="hero-text">
-					The world of vehicles at the
-					<br />
-					feet of a MAX champion
-				</h2>
+				<div class="hero-text">
+					<h2 class="">Contact Us</h2>
+
+					<div class="hero-link">
+						<a class="" href="./">Home </a>
+						<span>>></span>
+						<a class="" href="./contact.html">
+							Contact Us
+						</a>
+					</div>
+				</div>
 			</div>
 		</header>
 
 		<main>
-			<section class="section-1">
-				<div class="">
-					<div class="section-1_icon">
+			<section class="section-1 flex">
+				<div class="actions flex">
+					<div class="icon">
 						<i class="fa-regular fa-envelope"></i>
 					</div>
 
@@ -70,10 +77,10 @@
 					<p>info@arcpartners.co</p>
 				</div>
 
-				<div class="">
-					<div class="section-1_icon">
+				<div class="actions flex">
+					<div class="icon">
 						<i
-							class="fa-light fa-map-location-dot"
+							class="fa-solid fa-map-location-dot"
 						></i>
 					</div>
 
@@ -81,11 +88,9 @@
 					<p>Africa Based, Worldwide Focused</p>
 				</div>
 
-				<div class="">
-					<div class="section-1_icon">
-						<i
-							class="fa-light fa-map-location-dot"
-						></i>
+				<div class="actions flex">
+					<div class="icon">
+						<i class="fa-solid fa-phone-flip"></i>
 					</div>
 
 					<h4>Call Here</h4>
@@ -93,111 +98,173 @@
 				</div>
 			</section>
 
-			<section class="section-2">
-				<h3>Send A Message<span>.</span></h3>
-				<form action="">
-					<div class="">
-						<input type="text" />
-						<input type="email" name="" id="" />
-						<input type="number" name="" id="" />
-						<input type="text" />
-					</div>
-					<textarea
-						name=""
-						id=""
-						cols="30"
-						rows="10"
-					></textarea>
-					<div class="">
-						<input type="number" name="" id="" />
-						<input type="text" />
-					</div>
-					<textarea
-						name=""
-						id=""
-						cols="30"
-						rows="10"
-					></textarea>
+			<section class="section-2 flex">
+				<h3 class="message">
+					Send A Message
+					<span>.</span>
+				</h3>
 
-					<button>MESSAGE US</button>
+				<form class="flex" action="./index.html">
+					<div class="input-text flex">
+						<div class="input-wrapper">
+							<i class="fa-solid fa-user"></i>
+							<input
+								type="text"
+								placeholder="YOUR NAME"
+							/>
+						</div>
+
+						<div class="input-wrapper">
+							<i class="fa-solid fa-envelope"></i>
+							<input
+								type="email"
+								placeholder="YOUR EMAIL"
+							/>
+						</div>
+					</div>
+
+					<div class="input-text flex">
+						<div class="input-wrapper">
+							<i class="fa-solid fa-phone-flip"></i>
+							<input
+								type="number"
+								placeholder="YOUR PHONE"
+							/>
+						</div>
+
+						<div class="input-wrapper">
+							<i
+								class="fa-regular fa-hand-point-up"
+							></i>
+							<input
+								type="text"
+								placeholder="YOUR MESSAGE"
+							/>
+						</div>
+					</div>
+
+					<div class="input-wrapper">
+						<i class="fa-solid fa-envelope"></i>
+						<textarea
+							placeholder="YOUR MESSAGE"
+							cols="30"
+							rows="10"
+						></textarea>
+					</div>
+
+					<div class="input-text flex">
+						<div class="input-wrapper">
+							<i class="fa-solid fa-phone-flip"></i>
+							<input
+								type="number"
+								placeholder="YOUR PHONE"
+							/>
+						</div>
+
+						<div class="input-wrapper">
+							<i
+								class="fa-regular fa-hand-point-up"
+							></i>
+							<input
+								type="text"
+								placeholder="YOUR MESSAGE"
+							/>
+						</div>
+					</div>
+
+					<div class="input-wrapper">
+						<i class="fa-solid fa-envelope"></i>
+						<textarea
+							placeholder="YOUR MESSAGE"
+							cols="30"
+							rows="10"
+						></textarea>
+					</div>
+
+					<button class="contact-btn">
+						MESSAGE US
+					</button>
 				</form>
 			</section>
 		</main>
 
 		<footer>
-			<div class="">
+			<div class="footer-heading">
 				<h2>
 					The world of vehicles at the feet of a
 					<br />
 					MAX champion
 				</h2>
 
-				<button>Become a MAX champion</button>
+				<button class="footer-btn">
+					Become a MAX champion
+				</button>
 			</div>
 
-			<div class="">
-				<div class="">
+			<div class="footer-nav">
+				<div class="footer-info">
 					<h4>Company</h4>
-					<a href="" class="footer-links"
+					<a href="./about.html" class="footer-links"
 						>About Metro Africa Xpress</a
 					>
-					<a href="" class="footer-links">Impact</a>
-					<a href="" class="footer-links"
+					<a href="#" class="footer-links">Impact</a>
+					<a href="#" class="footer-links"
 						>Press & Media</a
 					>
 					<a href="" class="footer-links">Careers</a>
 				</div>
 
-				<div class="">
+				<div class="footer-info">
 					<h4>Services</h4>
-					<a href="" class="footer-links"
+					<a href="#" class="footer-links"
 						>Drivers Platform</a
 					>
-					<a href="" class="footer-links"
+					<a href="#" class="footer-links"
 						>Transport Marketplace</a
 					>
-					<a href="" class="footer-links"
+					<a href="#" class="footer-links"
 						>Enterprise</a
 					>
-					<a href="" class="footer-links"
+					<a href="#" class="footer-links"
 						>Electric Vehicles</a
 					>
 				</div>
 
-				<div class="">
+				<div class="footer-info">
 					<h4>Get in touch</h4>
-					<div class="">
-						<a href="" class="footer-icons">
+
+					<div class="footer-icons">
+						<a href="#" class="icon">
 							<i class="fa-brands fa-youtube"></i>
 						</a>
 
-						<a href="" class="footer-icons">
+						<a href="#" class="icon">
 							<i class="fa-brands fa-twitter"></i>
 						</a>
 
-						<a href="" class="footer-icons">
+						<a href="#" class="icon">
 							<i
 								class="fa-brands fa-square-facebook"
 							></i>
 						</a>
 
-						<a href="" class="footer-icons">
+						<a href="#" class="icon">
 							<i class="fa-brands fa-instagram"></i>
 						</a>
 
-						<a href="" class="footer-icons">
+						<a href="#" class="icon">
 							<i class="fa-brands fa-linkedin"></i>
 						</a>
 					</div>
 
 					<div class="footer-email">
-						<p>success@max.ng</p>
-						<p>info@max.ng</p>
+						<p class="footer-links">success@max.ng</p>
+						<p class="footer-links">info@max.ng</p>
 					</div>
 
-					<p>
-						25b Bisola Durosinmi Etti dr, Lekki Phase
-						1
+					<p class="footer-links">
+						25b Bisola Durosinmi <br />
+						Etti dr, Lekki Phase 1
 					</p>
 				</div>
 			</div>
