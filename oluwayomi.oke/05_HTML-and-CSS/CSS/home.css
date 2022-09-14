@@ -44,10 +44,6 @@ section {
 	height: 400px;
 }
 
-.section-1_img img {
-	object-fit: contain;
-}
-
 .section-2 {
 	flex-direction: column;
 	align-items: center;
