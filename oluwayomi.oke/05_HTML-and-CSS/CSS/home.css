@@ -36,8 +36,7 @@ section {
 }
 
 .section-1_img {
-	background: #ffffff
-		url("../images/pexels-isabella-rubie-13304393.jpg")
+	background: #ffffff url("../images/home-2.PNG")
 		no-repeat center center/cover;
 	width: 100%;
 	max-width: 500px;
@@ -81,8 +80,7 @@ section {
 }
 
 .section-3_img {
-	background: #ffffff
-		url("../images/pexels-isabella-rubie-13304393.jpg")
+	background: #ffffff url("../images/home-3.PNG")
 		no-repeat center center/cover;
 	width: 100%;
 	max-width: 500px;
@@ -102,8 +100,7 @@ section {
 }
 
 .section-4_img {
-	background: #ffffff
-		url("../images/pexels-isabella-rubie-13304393.jpg")
+	background: #ffffff url("../images/home-4.PNG")
 		no-repeat center center/cover;
 	width: 100%;
 	max-width: 500px;

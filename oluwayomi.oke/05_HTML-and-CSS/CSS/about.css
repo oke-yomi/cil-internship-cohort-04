@@ -1,3 +1,8 @@
+header .about-hero {
+	background: #ffffff url("../images/about-1.jpg")
+		no-repeat top center/cover;
+}
+
 section {
 	padding: 5rem 3.5rem;
 }
@@ -41,8 +46,7 @@ section {
 }
 
 .section-1_img {
-	background: #ffffff
-		url("../images/pexels-isabella-rubie-13304393.jpg")
+	background: #ffffff url("../images/about-2.PNG")
 		no-repeat center center/cover;
 	width: 100%;
 	max-width: 500px;
@@ -50,7 +54,7 @@ section {
 }
 
 .section-2 {
-  align-items: center;
+	align-items: center;
 	flex-direction: column;
 	background-color: #a5cbe585;
 }
@@ -82,7 +86,7 @@ section {
 
 	align-items: center;
 	flex-direction: column;
-  margin-bottom: 25px;
+	margin-bottom: 25px;
 }
 
 .service .icon {
@@ -101,5 +105,5 @@ section {
 .contact-btn {
 	border-radius: 0;
 	background-color: rgb(62, 62, 235);
-  border-radius: 5px;
+	border-radius: 5px;
 }

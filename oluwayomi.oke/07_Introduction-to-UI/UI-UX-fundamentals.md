@@ -1,3 +1,7 @@
+- [x] Read **“Refactoring UI by Steve Schoger”** - Chapter 1
+
+- [x] Read **“Designing User Interfaces by Michał Malewicz, Diana Malewicz”** - Chapters 1 - 6
+
 ### UI/UX fundamentals
 
 User experience, or UX, is a term used to describe the overall experience a user has when interacting with a product or service in a given context.

@@ -1,3 +1,8 @@
+header .contact-hero {
+	background: #ffffff url("../images/about-1.jpg")
+		no-repeat top center/cover;
+}
+
 section {
 	padding: 5rem 3.5rem;
 }
