@@ -1,0 +1,28 @@
+{
+  "contacts": [
+    {
+      "fullname": "Mary Baso",
+      "email": "okeoluwayomi9@gmail.comn",
+      "phone": "08144976291",
+      "id": "e5f3c7a6"
+    },
+    {
+      "id": "11f04931",
+      "fullname": "Oluwayomi OKE",
+      "email": "okeoluwayomi9@gmail.com",
+      "phone": "08144976291"
+    },
+    {
+      "fullname": "Oluwayomi OKE",
+      "email": "okeoluwayomi9@gmail.com",
+      "phone": "08144976291",
+      "id": "rB10ry2"
+    },
+    {
+      "fullname": "Oluwayomi OKE",
+      "email": "okeoluwayomi9@gmail.com",
+      "phone": "08144976291",
+      "id": "eNHXutF"
+    }
+  ]
+}
